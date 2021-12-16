@@ -1,0 +1,10 @@
+<?xml version= '1.0' href="estiloarticulos.css"?>
+
+<Articulos>
+    <Nombre1>Sofá</Nombre1>
+    <Precio1>642</Precio1>
+    <Nombre2>Mesa</Nombre2>
+    <Precio2>305</Precio2>
+    <Nombre3>Lámpara</Nombre3>
+    <Precio3>89</Precio3>
+</Articulos>
