@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE libreria SYSTEM "ejercicio2.dtd">
+<libreria catalogo="Libros para dormir">
+    <libro titulo="La cenicienta" editorial="dormirbien" autor="Marc Ruiz"/>
+    <revista marca="Hola">
+        <numero>12</numero>
+        <titular>Como dormir</titular>
+        <editorial>Anaya</editorial>
+    </revista>
+    <periódico fecha="22/12/2003" nombre="ABC"/>
+</libreria>
