@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio4</title>
+</head>
+<body>
+    <form>
+        <h1>Reservation Request</h1>
+        <fieldset>
+            <legend style="color: blue;"><b>General information</b></legend>
+            <table>
+                <tr>
+                    <td><label for="Arrival date">Arrival date:</label></td>
+                    <td><input type="date" name="Arrival date"></td>
+                    <td><p style="color: red;">Arrival date is invalid.</p></td>
+                </tr>
+                <tr>
+                    <td><label for="Nights">Nights:</label></td>
+                    <td><input type="text" name="Nights"></td>
+                    <td><p style="color: red;">Nights must be a number.</p></td>
+                </tr>
+                <tr>
+                    <td><label for="Adults">Adults:</label></td>
+                    <td>
+                        <select name="Adults">
+                            <optgroup label="Adults">
+                                <option value="0" selected>0</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                            </optgroup>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="Children">Children:</label></td>
+                    <td>
+                        <select name="Children">
+                            <optgroup label="Children">
+                                <option value="0" selected>0</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                            </optgroup>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend style="color: blue;"><b>Preferences</b></legend>
+            <table>
+                <tr>
+                    <td><label for="Room">Room type:</label></td>
+                    <td><input type="radio" name="Room">Standard</td>
+                    <td><input type="radio" name="Room">Business</td>
+                    <td><input type="radio" name="Room">Suite</td>
+                </tr>
+                <tr>
+                    <td><label for="Bed">Bed type:</label></td>
+                    <td><input type="radio" name="Bed">King:</td>
+                    <td><input type="radio" name="Bed">Double Double</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox">Smoking</td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend style="color: blue;"><b>Contact Information</b></legend>
+            <table>
+                <tr>
+                    <td><label for="Name">Name:</label></td>
+                    <td><input type="text" name="Name"></td>
+                    <td><p style="color: red;">Name is required.</p></td>
+                </tr>
+                <tr>
+                    <td><label for="Email">Email:</label></td>
+                    <td><input type="text" name="Email"></td>
+                    <td><p style="color: red;">Email address is invalid</p></td>
+                </tr>
+                <tr>
+                    <td><label for="Phone">Phone:</label></td>
+                    <td><input type="text" name="Phone"></td>
+                    <td><p style="color: red;">Phone number is invalid</p></td>
+                </tr>
+            </table>
+        </fieldset>
+        <input type="submit" value="Submit Reservation">
+        <input type="reset" value="Clear">
+    </form>
+</body>
+</html>
