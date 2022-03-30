@@ -1,0 +1,3 @@
+Los últimos 5 párrafos no se ven igual que los dos primeros, ya que no pertenecen
+a la misma clase, los dos primeros pertenecen a la clase "verse" mientras que los 
+otros no.

@@ -1,0 +1,17 @@
+El primer elemento que emplea lo utiliza para darle color al fondo de la página,
+que sería con la etiqueta body, la cual selecciona toda la página.
+El segundo elemento lo emplea para poner un color a todos los títulos hechos con
+el elemento h1, y un tamaño a la letra de 20pt.
+El tercer elemento lo emplea para darle color a todos los hr, que sirven para poner
+la barra que divide espacios.
+El cuarto elemento lo emplea para poner la letra de los parrafos de tamaño 12pt,
+y dejar un margen a la izquierda de 15px, el siguiente elemento lo usa para darle
+color a los parrafos pero que tienen la id verse, para darle color, y un margen
+a la izquierda de 60px.
+El quinto elemento lo ha empleado los usa para los links, pero con ids diferentes,
+el primer caso es para los link con la id "link" para ponerlo de color verde cuando
+no se interacciona con el, el segundo caso es para los links con la id "visited" 
+para ponerlo de color amarillo cuando ya se ha accedido a la pagina anteriormente,
+el tercer caso es para los links con la id "hover" para ponerlo de color negro
+cuando te pones encima del link antes de clicar en el, y en el cuarto caso es para
+los links con la id "active" para ponerlo de color azul mientras se deja pulsado.
