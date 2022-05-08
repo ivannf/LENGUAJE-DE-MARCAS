@@ -1,0 +1,120 @@
+*{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.header img{
+    width: 20%;
+    float: left;
+}
+
+.header aside{
+    width: 20%;
+    margin-left: 82%;
+}
+
+.header aside img{
+    width: 15%;
+}
+
+div nav{
+    background-color: #ff40a0;
+    z-index: 100;
+    height: 50px;
+    margin-top: 7%;
+}
+
+div nav li{
+    color: #ffffff;
+    display: inline-block;
+    list-style-type: none;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.tweets{
+    float:right;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 20%;
+    height: 200px;
+    margin-right: 0;
+}
+
+.banner{
+    margin-top: 20px;
+    color: #ff40a0;
+}
+
+.banner img{
+    width: 70%;
+}
+
+.banner div{
+    font-size: 30px;
+}
+
+.fotos{
+    margin-top: 5%;
+}
+
+.foto1{
+    background-color: white;
+    border: 2px solid #ff40a0;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 10%;
+    height: 200px;
+    margin-left: 10%;
+    float: left;
+}
+
+.foto1 img{
+    width: 70%;
+    margin-top: 20%;
+}
+
+.foto2{
+    background-color: white;
+    border: 2px solid #ff40a0;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 10%;
+    height: 200px;
+    margin-left: 10%;
+    float:left;
+}
+
+.foto2 img{
+    width: 70%;
+    margin-top: 20%;
+}
+
+.foto3{
+    background-color: white;
+    border: 2px solid #ff40a0;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 10%;
+    height: 200px;
+    margin-left: 50%;
+}
+
+.foto3 img{
+    width: 70%;
+    margin-top: 20%;
+}
+
+.footer{
+    background-color: #ff40a0;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 50px;
+    padding-top: 18px;
+    margin-top: 100px;
+}
