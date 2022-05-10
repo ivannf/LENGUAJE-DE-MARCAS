@@ -1,0 +1,197 @@
+*{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    margin: 0;
+}
+
+.titulo{
+    background-color: #2e1a06;
+    height: 40%;
+}
+
+.titulo1{
+    color: white;
+    margin: 0;
+    font-size: 50px;
+}
+
+.titulo2{
+    color: orange;
+    margin: 0;
+    font-size: 100px;
+}
+
+.titulo3{
+    color: white;
+    margin: 0;
+    font-size: 120px;
+}
+
+.titulo4{
+    color: orange;
+    margin: 0;
+    font-size: 120px;
+}
+
+.titulo div{
+    background-color: orange;
+    margin-top: 20px;
+    height: 40px;
+}
+
+.parte1{
+    margin-left: 40px;
+    width: 50%;
+    float: left;
+}
+
+.parte1 h1{
+    color: orange;
+    width: 50%;
+}
+
+.foto{
+    max-width: 50px;
+    float: left;
+}
+
+.parte2 h1{
+    color: orange;
+}
+
+.parte2 nav {
+    top: 0px;
+    z-index: 100;
+}
+
+.parte2 nav div {
+    color: orange;
+    display: inline-block;
+    padding: 10px;
+    width: 10%;
+    text-align: center;
+}
+
+.parte2 nav hr{
+    width: 36%;
+    margin-left: 28px;
+    color: black;
+    margin-top:15px;
+    margin-bottom: 15px;
+}
+  
+figure img {
+    width: 100%;
+    height: 85px;
+}
+
+#foto1 {
+    border: 2px solid orange;
+    width: 15%;
+    height: 89px;
+    left: 54%;
+    position: absolute;
+    z-index: 10;
+  }
+  
+  #foto2 {
+    border: 2px solid orange;
+    width: 15%;
+    height: 89px;
+    position: absolute;
+    left: 71%;
+  }
+  
+  #foto3 {
+    border: 2px solid orange;
+    width: 15%;
+    height: 89px;
+    left: 54%;
+    position: absolute;
+    top: 110%;
+  }
+  
+  #foto4 {
+    border: 2px solid orange;
+    width: 15%;
+    height: 89px;
+    left: 71%;
+    position: absolute;
+    top: 110%;
+  }
+
+  .final{
+      margin-top: 17%;
+      border-spacing: 50px;
+  }
+
+ .final button{
+     font-size: 40px;
+     margin-top: 20px;
+     width: 210px;
+     height: 60px;
+     background-color: orange;
+     color: #2e1a06;
+ }
+
+ .footer{
+    background-color: #2e1a06;
+    height: 300px;
+}
+
+#cuadro1{
+   background-color: #73400d;
+   border-radius: 5px;
+   width: 15%;
+   height: 250px;   
+   margin-left: 180px;
+   padding: 5px;
+   font-size: 15px;
+   float: left;
+}
+
+#cuadro1 button{
+    width: 200px;
+    height: 30px;
+    font-size: 15px;
+    background-color: orange;
+}
+
+#cuadro2{
+    background-color: #73400d;
+    border-radius: 5px;
+    width: 15%;
+    height: 250px; 
+    margin-left: 570px;
+    padding: 5px;
+   font-size: 15px;
+   
+ }
+
+ #cuadro2 button{
+    width: 200px;
+    height: 30px;
+    font-size: 15px;
+    background-color: orange;
+}
+
+ #cuadro3{
+    background-color: #73400d;
+    border-radius: 5px;
+    width: 15%;
+    height: 250px;  
+    margin-left: 1000px;
+    padding: 5px;
+   font-size: 15px;
+ }
+
+ #cuadro3 button{
+    width: 200px;
+    height: 30px;
+    font-size: 15px;
+    background-color: orange;
+}
